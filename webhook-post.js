@@ -1,7 +1,7 @@
 // webhook-post.js
 const express = require('express');
 const router = express.Router();
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 const { mensagensRecebidas } = require('./sharedData'); // <-- aqui está o compartilhamento
 
 router.post('/', async (req, res) => {
