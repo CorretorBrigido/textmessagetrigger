@@ -10,6 +10,9 @@ const respostasNegativas = [
   /^não,? obrigado.?$/i,
   /^nao,? obrigado.?$/i,
   /obrigado(?:,)? (mas )?(não|nao)/i,
+  /^não,? obrigada.?$/i,
+  /^nao,? obrigada.?$/i,
+  /obrigada(?:,)? (mas )?(não|nao)/i,
   /\b(não quero|não tenho interesse|nao quero|nao tenho interesse)\b/i
 ];
 
