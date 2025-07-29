@@ -40,7 +40,7 @@ router.post('/', async (req, res) => {
           to: numero,
           type: "text",
           text: {
-            body: "Olá! Sou a assistente virtual da nossa equipe. 🤖 [...]"
+            body: "Olá! Sou a assistente virtual da nossa equipe. 🧑🏽‍🦳\n\nFico muito feliz em falar com você!\n\nFui criada com inteligência artificial para ajudar no primeiro contato e garantir que sua mensagem chegue direitinho até a gente.\n\nAgora, vou passar a conversa para um dos nossos humanos, que irão continuar o atendimento com todo carinho e atenção que você merece! 💛\n\nNosso atendimento seguirá pelo número (11) 97308-3923.\n\nAguarde só um pouquinho e logo logo alguém estará com você."
           }
         })
       });
