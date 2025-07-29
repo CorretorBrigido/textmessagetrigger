@@ -1,0 +1,43 @@
+{
+<<<<<<< HEAD
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "project-whatsapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CorretorBrigido/textmessagetrigger.git"
+>>>>>>> 39332e9 (Adiciona dependências e configura start)
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+<<<<<<< HEAD
+  "description": "",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0",
+    "excel4node": "^1.8.2"
+=======
+  "bugs": {
+    "url": "https://github.com/CorretorBrigido/textmessagetrigger/issues"
+  },
+  "homepage": "https://github.com/CorretorBrigido/textmessagetrigger#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "excel4node": "^1.8.2",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+>>>>>>> 39332e9 (Adiciona dependências e configura start)
+  }
+}
